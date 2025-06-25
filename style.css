@@ -1,0 +1,41 @@
+html, body{
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: azure;
+    background-image: url(imagens/fundo2-foto.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#bloco_geral{
+    position: relative;
+}
+#bloco_geral_login{
+    position: absolute;
+    left: 98%;
+    top: 45px;
+    transform: translate(-98%);
+    background-color: #ffffffcc;
+    width: 100%;
+    max-width: 500px;
+    height: 600px;
+}
+.caixas_de_registro{
+    position: absolute;
+    left: 50%;
+    top: 39%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    width: 100%;
+    max-width: 240px;
+    height: 100%;
+}
+.caixas_de_registro input{
+    height: 2em;
+    text-align: center;
+}
