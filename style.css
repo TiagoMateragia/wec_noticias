@@ -1,5 +1,6 @@
 html, body{
     overflow-y: hidden;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -15,13 +16,21 @@ html, body{
 }
 #bloco_geral_login{
     position: absolute;
-    left: 98%;
+    left: 95%;
     top: 45px;
     transform: translate(-98%);
     background-color: #ffffffcc;
     width: 100%;
     max-width: 500px;
     height: 600px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px #00000037, -4px -4px -4px #00000037;
+}
+.logo_wec{
+    width: 400px;
+    position: absolute;
+    left: 25%;
+    transform: translate(-15%);
 }
 .caixas_de_registro{
     position: absolute;
@@ -38,4 +47,23 @@ html, body{
 .caixas_de_registro input{
     height: 2em;
     text-align: center;
+}
+.caixas_de_registro input:hover{
+    color: #03bbbb;
+}
+.caixas_de_registro input:focus{
+    outline-color: #03bbbb;
+}
+.link_cadastrar{
+    position: absolute;
+    top: 58%;
+    left: 31%;
+}
+.botao_entrar{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200px;
+    height: 50px;
 }
