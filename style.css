@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'fonte_titulo';
+    src: url('fontes/titulo/BebasNeue-Regular.ttf') format('OpenType');
+}
+@font-face {
+    font-family: 'fonte_texto';
+    src: url('fontes/texto/Roboto-VariableFont_wdth\,wght.ttf') format('TrueType');
+}
+
+
 html, body{
     overflow-y: hidden;
     overflow-x: hidden;
@@ -34,30 +44,44 @@ html, body{
 }
 .caixas_de_registro{
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 39%;
     transform: translate(-50%);
     display: flex;
     flex-direction: column;
     gap: 3em;
     width: 100%;
-    max-width: 240px;
+    max-width: 350px;
     height: 100%;
 }
 .caixas_de_registro input{
     height: 2em;
-    text-align: center;
 }
 .caixas_de_registro input:hover{
     color: #03bbbb;
 }
 .caixas_de_registro input:focus{
+    color: black;
     outline-color: #03bbbb;
 }
-.link_cadastrar{
+.caixas_de_registro h1{
+    font-size: 16px;
+}
+.texto_email{
     position: absolute;
+    bottom: 99%;
+}
+.texto_senha{
+    position: absolute;
+    top: 8%;
+}
+.bloco_links{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
     top: 58%;
-    left: 31%;
+    left: 5.5%;
 }
 .botao_entrar{
     position: absolute;
@@ -66,4 +90,37 @@ html, body{
     transform: translate(-50%);
     width: 200px;
     height: 50px;
+    border-radius: 8px;
+    background-color: #00b9ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.botao_entrar:hover{
+    background-color: #02adeb;
+}
+#bloco_apresentacao{
+    position: absolute;
+    left: 65%;
+    transform: translate(-190%);
+    top: 15em;
+    width: 100%;
+    max-width: 350px;
+    color: white;
+}
+#bloco_apresentacao h1{
+    font-weight: bolder;
+    font-size: 2.3em;
+    font-family: fonte_titulo;
+}
+#bloco_apresentacao p{
+    text-indent: 12px;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: fonte_texto;
+}
+@media (max-width: 600px) {
+  #bloco_apresentacao {
+    display: none;
+  }
 }
