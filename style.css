@@ -128,7 +128,8 @@ html, body{
     width: 100%;
     max-width: 350px;
     margin: auto;
-    margin-top: 2em;
+    margin-top: 1.5em;
+    margin-left: -0.5em;
   }
   .logo_wec{
     position: absolute;
