@@ -31,7 +31,7 @@ Tela de login com campos de e-mail e senha, Layout moderno com fundo em imagem e
 │   └── /texto
 │       └── Roboto-VariableFont_wdth,wght.ttf
 
- *Pré-visualização
+ *Pré-visualização*
 
 A tela contém:
 
