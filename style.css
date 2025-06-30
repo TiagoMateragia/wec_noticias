@@ -120,7 +120,34 @@ html, body{
     font-family: fonte_texto;
 }
 @media (max-width: 600px) {
+
   #bloco_apresentacao {
     display: none;
+  }
+  #bloco_geral_login{
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+  }
+  .logo_wec{
+    position: absolute;
+    left: 13%;
+  }
+  .caixas_de_registro{
+    position: absolute;
+    left: 55%;
+  }
+  .caixas_de_registro input{
+    width: 100%;
+    max-width: 250px;
+  }
+  .bloco_links{
+    width: 100%;
+    max-width: 250px;
+    padding-left: 3px;
+  }
+  .botao_entrar{
+    position: absolute;
+    top: 75%;
   }
 }
