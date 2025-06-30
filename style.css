@@ -15,7 +15,7 @@ html, body{
     padding: 0;
     height: 100%;
     background-color: azure;
-    background-image: url(imagens/fundo2-foto.webp);
+    background-image: url(imagens/fundo_site.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,7 +29,7 @@ html, body{
     left: 95%;
     top: 45px;
     transform: translate(-98%);
-    background-color: #ffffffcc;
+    background-color: #d3d2d2cc;
     width: 100%;
     max-width: 500px;
     height: 600px;
@@ -83,6 +83,9 @@ html, body{
     top: 58%;
     left: 5.5%;
 }
+.bloco_links a:focus{
+    color: #00b9ff;
+}
 .botao_entrar{
     position: absolute;
     top: 70%;
@@ -112,12 +115,20 @@ html, body{
     font-weight: bolder;
     font-size: 2.3em;
     font-family: fonte_titulo;
+    background-clip: text;
+    background: linear-gradient(to top, #02adeb, #9df9f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #bloco_apresentacao p{
     text-indent: 12px;
     font-weight: normal;
     font-size: 18px;
     font-family: fonte_texto;
+    background-clip: text;
+    background: linear-gradient(to top,#02adeb, #9df9f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 @media (max-width: 600px) {
 
