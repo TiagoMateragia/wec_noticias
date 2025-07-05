@@ -53,9 +53,11 @@ Abra o arquivo index.html diretamente no navegador
 
  *Responsividade*
 
-Em telas acima de 600px, o layout exibe o texto de apresentação e o bloco de login lateralmente
+Em telas acima de 1030px: Layout exibe o texto de apresentação e o bloco de login lado a lado
 
-Em telas menores, o foco fica somente no bloco de login centralizado, ocultando a apresentação
+Em telas até 1030px: Apresentação é oculta, permanecendo somente o bloco de login centralizado
+
+Em telas até 600px, o foco fica somente no bloco de login centralizado, ocultando a apresentação
 
  *Melhorias Futuras*
 
@@ -70,3 +72,5 @@ Tradução e suporte multilíngue
  *Créditos*
 
 Projeto desenvolvido como parte de estudos de Front-End, inspirado no universo do automobilismo de Endurance.
+
+Feito por Tiago Materagia.
