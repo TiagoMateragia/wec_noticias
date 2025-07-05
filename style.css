@@ -130,6 +130,18 @@ html, body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 1030px){
+
+    #bloco_apresentacao{
+        display: none;
+    }
+    #bloco_geral_login{
+        position: absolute;
+        left: 88%;
+    }
+}
+
 @media (max-width: 600px) {
 
   #bloco_apresentacao {
