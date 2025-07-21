@@ -16,21 +16,6 @@ Design Responsivo
 
 Tela de login com campos de e-mail e senha, Layout moderno com fundo em imagem e elementos translúcidos, Efeito degradê no texto de apresentação, Responsivo: adapta-se para celulares e dispositivos menores, Links de "Cadastrar-se" e "Esqueci minha senha", Botão de login estilizado com efeito hover
 
- *Estrutura de Pastas*
-
-/projeto-wec
-|
-├── index.html               # Página principal
-├── style.css                # Estilização do site
-├── /imagens                 # Imagens utilizadas (logo e fundo)
-│   ├── wec_logo.png
-│   └── fundo_site.jpg
-├── /fontes                  # Fontes personalizadas
-│   ├── /titulo
-│   │   └── BebasNeue-Regular.ttf
-│   └── /texto
-│       └── Roboto-VariableFont_wdth,wght.ttf
-
  *Pré-visualização*
 
 A tela contém:
